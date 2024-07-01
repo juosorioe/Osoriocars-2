@@ -1,0 +1,190 @@
+/* Global Styles */
+body {
+  background-color: #f8f9fa;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: normal;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  background: transparent;
+  outline: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+}
+
+img {
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* Container */
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1170px;
+}
+
+/* Flexbox Utilities */
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #1b1b1b;
+  color: white;
+}
+
+.navbar-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.navbar-brand img {
+  margin-bottom: 10px;
+}
+
+.navbar-text {
+  margin-top: -10px;
+  font-size: 14px;
+}
+
+/* Card Styles */
+.service-card img {
+  width: 100%;
+  height: 200px; /* Ajusta este valor según tus necesidades */
+  object-fit: cover;
+}
+
+.card {
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.btn-primary {
+  background-color: #343a40;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #495057;
+}
+
+body {
+  background: url("../img/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-container .form-group,
+.form-container .mb-3 {
+  margin-bottom: 15px;
+}
+
+.form-container .form-group label,
+.form-container .mb-3 label {
+  font-weight: bold;
+}
+
+.form-container .form-group input,
+.form-container .mb-3 input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container .btn-primary {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-container .btn-primary:hover {
+  background-color: #555;
+}
+
+/* Sección de servicios */
+
+.service-card {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Carousel Styles */
+.carousel-inner img {
+  height: 400px; /* Ajusta este valor según tus necesidades */
+  object-fit: cover;
+}
